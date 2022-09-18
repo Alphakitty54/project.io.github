@@ -1,0 +1,69 @@
+@import 'cart.css';
+
+body{
+    display: block;
+    background-color: white;
+}
+
+.checkout{
+    width: 100%;
+    padding: 20px 1px;
+ 
+}
+.heading{
+
+    text-transform: capitalize;
+    font-size: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+input:not(.checkout),
+textarea{
+    display: block;
+    width: 50%;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    outline: none;
+    
+    text-transform:capitalize;
+    color: #383838;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0,0, 0.01);
+    font-family: 'roboto', sans-serif;
+}
+
+::placeholder{
+    color:#383838;
+}
+
+.form{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.three-input-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+}
+.three-input-container input{
+    margin-left: 20%;
+    
+}
+
+.place-order-btn{
+    display: block;
+    width: 30%;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    background: #383838;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
